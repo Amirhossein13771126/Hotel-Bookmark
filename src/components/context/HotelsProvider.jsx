@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 
 const HotelContext = createContext();
-const BASE_URL = "https://recondite-pumped-beret.glitch.me/hotels";;
+const BASE_URL = "https://recondite-pumped-beret.glitch.me";;
 
 function HotelsProvider({ children }) {
   const [currentHotel, setCurrentHotel] = useState(null);
