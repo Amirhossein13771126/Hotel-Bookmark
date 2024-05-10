@@ -21,7 +21,7 @@ function SingleHotel() {
           {currentHotel.number_of_reviews} reviews &bull;{" "}
           {currentHotel.smart_location}
         </div>
-        <img src={currentHotel.thumbnail} alt={currentHotel.name} />
+        <img src={currentHotel.thumbnail_url} alt={currentHotel.name} />
       </div>
     </div>
   );
